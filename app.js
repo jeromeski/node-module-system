@@ -1,7 +1,6 @@
 /*
-* Global Object Lesson
-* ====================
-*/ 
+* 1. Global Object Lesson
+* ========================
 
 
 console.log(); // global
@@ -24,7 +23,7 @@ console.log(global.message);
 // *variables and functions are scoped only to this index.js file.
 
 /*
-*    Module Lesson
+*   2. Module Lesson
 * ====================
 */ 
 
