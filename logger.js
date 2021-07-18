@@ -13,4 +13,6 @@ function log(message) {
 // module.exports.log = log;
 // module.exports.endpoint = url;
 
-module.exports = log
+module.exports = log;
+
+console.log(module);
