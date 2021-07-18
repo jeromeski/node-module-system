@@ -15,4 +15,4 @@ function log(message) {
 
 module.exports = log;
 
-console.log(module);
+// console.log(module);
