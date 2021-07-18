@@ -1,6 +1,6 @@
 /*
- *   3. Module Lesson
- * ====================
+ *   3. Creating a Module Lesson
+ * ================================
  */
 
 var url = 'http://mylogger.io';

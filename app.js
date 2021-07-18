@@ -25,7 +25,7 @@ console.log(global.message);
 /*
 *   2. Module Lesson
 * ====================
-*/ 
+*/
 
 // *In node every file is a module and the variables and functions in that file are scoped to that module.
 
@@ -47,3 +47,11 @@ Module {
   ]
 }
 */
+
+/*
+ *   4. Load a Module Lesson
+ * ============================
+ */
+
+const logger = require('./logger');
+logger('Hello World');
