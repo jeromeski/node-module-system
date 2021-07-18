@@ -1,5 +1,8 @@
-// Global Object Lesson
-//=======================
+/*
+* Global Object Lesson
+* ====================
+*/ 
+
 
 console.log(); // global
 
@@ -20,7 +23,28 @@ console.log(global.message);
 
 // *variables and functions are scoped only to this index.js file.
 
-// Module Leason
-// =================
+/*
+*    Module Lesson
+* ====================
+*/ 
+
+// *In node every file is a module and the variables and functions in that file are scoped to that module.
 
 console.log(module);
+/* output:
+Module {
+  id: '.',
+  path: '/home/projects/node-vrug2w',
+  exports: {},
+  parent: null,
+  filename: '/home/projects/node-vrug2w/app.js',
+  loaded: false,
+  children: [],
+  paths: [
+    '/home/projects/node-vrug2w/node_modules',
+    '/home/projects/node_modules',
+    '/home/node_modules',
+    '/node_modules'
+  ]
+}
+*/
