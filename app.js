@@ -55,8 +55,13 @@ Module {
 
 // To load a module you use "require"
 
+// var logger = require('./logger');
 const log = require('./logger');
+
+// console.log(logger)
 console.log(log);
 
 // logger.log('Hello World');
 log('Hello World');
+
+console.log(module);
