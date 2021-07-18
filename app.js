@@ -20,7 +20,7 @@ console.log(global.message);
 
 // *variables and functions are scoped only to this index.js file.
 
-// Module
+// Module Leason
 // =================
 
 console.log(module);
