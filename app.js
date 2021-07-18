@@ -53,7 +53,10 @@ Module {
  * ============================
  */
 
+// To load a module you use "require"
+
 const logger = require('./logger');
 console.log(logger);
 
-logger.log('Hello World');
+// logger.log('Hello World');
+logger('Hello World');
