@@ -55,8 +55,8 @@ Module {
 
 // To load a module you use "require"
 
-const logger = require('./logger');
-console.log(logger);
+const log = require('./logger');
+console.log(log);
 
 // logger.log('Hello World');
-logger('Hello World');
+log('Hello World');
