@@ -1,3 +1,6 @@
+// Global Object Lesson
+//=======================
+
 console.log(); // global
 
 // global == window
@@ -16,3 +19,8 @@ console.log(global.message);
 // output: undefined
 
 // *variables and functions are scoped only to this index.js file.
+
+// Module
+// =================
+
+console.log(module);
